@@ -8,13 +8,14 @@ struct WelcomeView: View {
             ZStack {
                 Color(.systemBlue).edgesIgnoringSafeArea(.all)
                 
-                Text("Ryde")
-                    .font(.system(size: 66, weight: .heavy, design: .serif))
+                Text("StudentGo")
+                    .font(.system(size: 54, weight: .heavy, design: .serif))
+                    .italic()
                     .foregroundColor(.white)
             }
             .onAppear {
          
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     isOnboardingActive = true
                 }
             }

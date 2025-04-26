@@ -29,22 +29,9 @@
 		9496ED012DB7F04600169FB7 /* RydeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RydeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		94D44DE72DBAAC1300980E7E /* Exceptions for "Ryde" folder in "Ryde" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Core/Trips/Untitled.swift,
-			);
-			target = 9496ECE42DB7F04400169FB7 /* Ryde */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9496ECE72DB7F04400169FB7 /* Ryde */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				94D44DE72DBAAC1300980E7E /* Exceptions for "Ryde" folder in "Ryde" target */,
-			);
 			path = Ryde;
 			sourceTree = "<group>";
 		};
