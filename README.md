@@ -42,7 +42,7 @@ Automatically clears old routes and pins when a new destination is chosen.
 StudentGo aims to make transportation easier, cheaper, and safer for students across Tashkent and beyond.
 Universities subsidize part of the ride costs, ensuring affordability while maintaining a high level of service.
 
-####Future Plans:
+#### Future Plans:
 
 - 🚗 Real-time ride tracking
 
