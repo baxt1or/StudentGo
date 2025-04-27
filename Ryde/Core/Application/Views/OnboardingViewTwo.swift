@@ -37,7 +37,7 @@ struct OnboardingViewTwo: View {
                     .lineLimit(nil)
                     .padding(.horizontal, 20)
                 
-                Text("Your journey begins with Ryde. Find your ideal ride effortlessly.")
+                Text("Your journey begins with StudentGo. Find your ideal ride effortlessly.")
                     .font(.system(size: 18, weight: .light))
                     .foregroundColor(Color(.systemGray))
                     .multilineTextAlignment(.center)

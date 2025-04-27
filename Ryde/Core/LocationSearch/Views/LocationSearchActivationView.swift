@@ -7,9 +7,8 @@ struct LocationSearchActivationView : View {
         
         HStack{
             
-            Image(systemName: "car")
+            Image("studentgo-comfort")
                 .resizable()
-                .frame(width: 20, height: 20)
                 .scaledToFit()
             
             Spacer()
@@ -17,11 +16,12 @@ struct LocationSearchActivationView : View {
             Text("Where to?")
                 .font(.system(size: 18, weight: .bold))
                 .foregroundColor(.black)
+                .padding(.trailing)
             
             
             Spacer()
             
-            Image(systemName: "chevron.right.circle")
+            Image(systemName: "chevron.right")
             
         }
         .padding(12)

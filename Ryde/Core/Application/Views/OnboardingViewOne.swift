@@ -33,14 +33,14 @@ struct OnboardingViewOne: View {
             Spacer()
             
             VStack(spacing: 16) {
-                Text("The best car in your hands with Ryde")
+                Text("The best car in your hands with StudentGo")
                     .font(.system(size: 32, weight: .bold))
                     .foregroundColor(.black)
                     .multilineTextAlignment(.center)
                     .lineLimit(nil)
                     .padding(.horizontal, 20)
                 
-                Text("Discover the convenience of finding your perfect ride with our Ryde App")
+                Text("Discover the convenience of finding your perfect ride with our StudentGo App")
                     .font(.system(size: 18, weight: .light))
                     .foregroundColor(Color(.systemGray))
                     .multilineTextAlignment(.center)

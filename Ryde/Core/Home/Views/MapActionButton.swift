@@ -4,6 +4,7 @@ import SwiftUI
 struct MapActionButton : View {
     
     @Binding var mapState : MapViewState
+    @ObservedObject  var viewModel : LocationSearchViewModel
     
     
     var body : some View {
@@ -32,9 +33,9 @@ struct MapActionButton : View {
               print("No Input")
         case .searchingForLocation:
             mapState = .noInput
-        
         case .locationSelected:
             mapState = .noInput
+            viewModel.selectedStudentGoLocation = nil
           
         }
     }
@@ -46,6 +47,8 @@ struct MapActionButton : View {
             return "line.3.horizontal"
         case .searchingForLocation, .locationSelected:
             return "arrow.left"
+        default:
+            return "line.3.horizontal"
         }
     }
         
