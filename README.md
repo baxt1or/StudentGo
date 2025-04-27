@@ -1,4 +1,4 @@
-#🎓 StudentGo - Smarter Rides for Students
+# 🎓 StudentGo - Smarter Rides for Students
 
 
 StudentGo is a modern iOS application that helps students quickly find their destinations, view routes, and request affordable rides — all designed specifically for university communities.
@@ -6,7 +6,7 @@ StudentGo is a modern iOS application that helps students quickly find their des
 Built with SwiftUI, MapKit, and CoreLocation, StudentGo offers a seamless experience with beautiful animations and smooth state transitions.
 
 
-#✨ Features
+# ✨ Features
 - 📍 Real-time Location Tracking
 Instantly detect and center the map on the user's current location.
 
