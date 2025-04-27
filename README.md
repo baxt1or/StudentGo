@@ -26,8 +26,6 @@ Smooth animated transitions between searching, selecting, and requesting rides.
 Automatically clears old routes and pins when a new destination is chosen.
 
 
-![alt text](<Screenshot 2025-04-27 at 7.54.54 PM.png>)
-![alt text](<Screenshot 2025-04-27 at 7.53.33 PM.png>)
 
 # 🛠️ Tech Stack
 - SwiftUI — For declarative UI and smooth animations
